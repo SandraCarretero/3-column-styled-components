@@ -1,15 +1,13 @@
-import { StyledButton, StyledCard, StyledIcon, StyledIconContainer, StyledText, StyledTitle } from "./card.styles";
+import { StyledButton, StyledCard, StyledText, StyledTitle } from "./card.styles";
 
 
-const Card = ({ icon, title, text, bgcolor, buttonText }) => {
+const Card = ({ icon, title, text, bgcolor }) => {
 	return (
 		<StyledCard bgcolor={bgcolor}>
-			<StyledIconContainer>
-				<StyledIcon src={icon} alt='' />
-			</StyledIconContainer>
+			<img src={icon} alt='' />
 			<StyledTitle>{title}</StyledTitle>
 			<StyledText>{text}</StyledText>
-			<StyledButton bgcolor={bgcolor}>{buttonText}</StyledButton>
+			<StyledButton bgcolor={bgcolor}>Learn More</StyledButton>
 		</StyledCard>
 	);
 };
