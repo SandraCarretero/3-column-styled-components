@@ -5,7 +5,7 @@ const StyledCard = styled.div`
 	flex-direction: column;
 	align-items: start;
 	padding: 3rem;
-	background-color: ${({ $bgcolor }) => $bgcolor};
+	background-color: ${({ $color }) => $color};
 	color: #fff;
 	/* transform: translateZ(0); */
 
@@ -13,6 +13,10 @@ const StyledCard = styled.div`
 		width: 307px;
 	}
 `;
+
+const StyledImage = styled.img`
+	width: 4rem;
+`
 
 const StyledTitle = styled.h2`
 	font-size: 2.5rem;
@@ -32,7 +36,7 @@ const StyledButton = styled.button`
 	padding: 0.7rem 2rem;
 	border: none;
 	border-radius: 1.5rem;
-	color: ${({ $bgcolor }) => $bgcolor};
+	color: ${({ $color }) => $color};
 	font-size: 1.2rem;
 
 	&:hover {
@@ -46,6 +50,7 @@ const StyledButton = styled.button`
 export {
 	StyledCard,
 	StyledTitle,
+	StyledImage,
 	StyledText,
 	StyledButton
 };
