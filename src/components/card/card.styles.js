@@ -5,7 +5,7 @@ const StyledCard = styled.div`
 	flex-direction: column;
 	align-items: start;
 	padding: 3rem;
-	background-color: ${({ bgcolor }) => bgcolor};
+	background-color: ${({ $bgcolor }) => $bgcolor};
 	color: #fff;
 	/* transform: translateZ(0); */
 
