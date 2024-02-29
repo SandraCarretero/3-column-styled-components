@@ -1,5 +1,9 @@
-import { StyledButton, StyledCard, StyledText, StyledTitle } from "./card.styles";
-
+import {
+	StyledButton,
+	StyledCard,
+	StyledText,
+	StyledTitle
+} from './card.styles';
 
 const Card = ({ $icon, $title, $text, $bgcolor }) => {
 	return (
