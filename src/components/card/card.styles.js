@@ -16,7 +16,7 @@ const StyledCard = styled.div`
 
 const StyledImage = styled.img`
 	width: 4rem;
-`
+`;
 
 const StyledTitle = styled.h2`
 	font-size: 2.5rem;
@@ -38,19 +38,15 @@ const StyledButton = styled.button`
 	border-radius: 1.5rem;
 	color: ${({ $color }) => $color};
 	font-size: 1.2rem;
+	cursor: pointer;
 
-	&:hover {
-		background-color: transparent;
-		color: #fff;
-		outline: 1px solid #fff;
-		cursor: pointer;
+	@media (hover: hover) {
+		&:hover {
+			background-color: transparent;
+			color: #fff;
+			outline: 1px solid #fff;
+		}
 	}
 `;
 
-export {
-	StyledCard,
-	StyledTitle,
-	StyledImage,
-	StyledText,
-	StyledButton
-};
+export { StyledCard, StyledTitle, StyledImage, StyledText, StyledButton };
