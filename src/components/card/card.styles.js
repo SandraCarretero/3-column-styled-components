@@ -32,7 +32,7 @@ const StyledButton = styled.button`
 	padding: 0.7rem 2rem;
 	border: none;
 	border-radius: 1.5rem;
-	color: ${({ bgcolor }) => bgcolor};
+	color: ${({ $bgcolor }) => $bgcolor};
 	font-size: 1.2rem;
 
 	&:hover {
