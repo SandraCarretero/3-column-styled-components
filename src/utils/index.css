@@ -1,0 +1,24 @@
+:root{
+    --orange: #e28625;
+    --blue: #006971;
+    --green: #004140;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+body{
+    color: white;
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+h1,
+h2,
+h3{
+    font-family: 'Big shoulders display', sans-serif;
+}
